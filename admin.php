@@ -18,6 +18,14 @@
 			</form>
 		</div>
 	</div>
+	<div class="container h-25">
+		<div class="col-6 h-100">
+			<form action="delete.php" method="GET">
+				<input type="" class="form-control" name="id" placeholder="Номер товара">
+				<button class="btn btn-danger">Удалить</button>
+			</form>
+		</div>
+	</div>
 </form>
 </body>
 </html>
